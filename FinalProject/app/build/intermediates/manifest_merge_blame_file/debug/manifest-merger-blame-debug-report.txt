@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="basic.helper.finalproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:47:5-78
+12-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:47:22-76
+13
+14    <application
+14-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:5:5-46:19
+15        android:allowBackup="true"
+15-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\Home\.gradle\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.FinalProject" >
+24-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:11:9-50
+25        <activity
+25-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:12:9-21:20
+26            android:name="basic.helper.finalproject.MainActivity"
+26-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:13:13-41
+27            android:exported="true"
+27-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:14:13-36
+28            android:screenOrientation="portrait" >
+28-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:15:13-49
+29            <intent-filter>
+29-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:16:13-20:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:17:17-69
+30-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:17-77
+32-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:22:9-29:20
+36            android:name="basic.helper.finalproject.Tasks"
+36-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:23:13-34
+37            android:exported="true"
+37-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:24:13-36
+38            android:screenOrientation="portrait" >
+38-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:25:13-49
+39            <intent-filter>
+39-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:26:13-28:29
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:17-77
+40-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:30:9-37:20
+44            android:name="basic.helper.finalproject.FirstTask"
+44-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:31:13-38
+45            android:exported="true"
+45-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:32:13-36
+46            android:screenOrientation="portrait" >
+46-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:33:13-49
+47            <intent-filter>
+47-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:26:13-28:29
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:17-77
+48-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:38:9-45:20
+52            android:name="basic.helper.finalproject.LevelCollector"
+52-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:39:13-43
+53            android:exported="true"
+53-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:40:13-36
+54            android:screenOrientation="portrait" >
+54-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:41:13-49
+55            <intent-filter>
+55-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:26:13-28:29
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:17-77
+56-->C:\Users\Home\AndroidStudioProjects\FinalProject\app\src\main\AndroidManifest.xml:19:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Home\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Home\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+62            android:authorities="basic.helper.finalproject.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Home\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Home\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Home\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Home\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Home\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Home\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Home\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Home\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>
